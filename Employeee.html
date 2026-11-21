@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration Form</title>
+</head>
+<body>
+
+    <h2 align="center">Employee Registration Form</h2>
+
+    <form>
+
+        Employee Name:
+        <input type="text" name="name" placeholder="Enter Employee Name" required>
+        <br><br>
+
+        Password:
+        <input type="password" name="password" required>
+        <br><br>
+
+        Email:
+        <input type="email" name="email" required>
+        <br><br>
+
+        Mobile Number:
+        <input type="tel" name="mobile" pattern="[0-9]{10}" required>
+        <br><br>
+
+        Age:
+        <input type="number" name="age" min="18" max="60">
+        <br><br>
+
+        Date of Birth:
+        <input type="date" name="dob">
+        <br><br>
+
+        Preferred Interview Time:
+        <input type="time" name="interview">
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        Skills:
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+        <br><br>
+
+        Select Department:
+        <select name="department">
+            <option value="">Select Department</option>
+            <option>HR</option>
+            <option>IT</option>
+            <option>Finance</option>
+            <option>Marketing</option>
+            <option>Sales</option>
+        </select>
+        <br><br>
+
+        Upload Resume:
+        <input type="file" name="resume">
+        <br><br>
+
+        Address:
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        Work Experience:
+        <input type="number" name="experience" min="0" placeholder="Years of Experience">
+        <br><br>
+
+        LinkedIn Profile:
+        <input type="url" name="linkedin" placeholder="Enter LinkedIn URL">
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
